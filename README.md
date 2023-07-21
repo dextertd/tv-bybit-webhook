@@ -1,5 +1,7 @@
 # tv-bybit-webhook
-Handle incoming TradingView webhooks with scaleable AWS lambdas
+Handle incoming TradingView webhooks with scaleable AWS lambdas.
+
+**In July 2023, Bybit launched its "Webhook Signal Trading" tool**, which may suit your usecase better. Please considering investigating that tool first, which requires no AWS lambda setup or programming knowledge. https://www.bybit.com/en-US/help-center/bybitHC_Article?id=000002030&language=en_US
 
 ## How it works
 - two lambda functions are required; one receiver to handle the webhook and another 
